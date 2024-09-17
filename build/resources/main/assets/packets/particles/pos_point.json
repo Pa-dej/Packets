@@ -1,0 +1,11 @@
+{
+  "textures": [
+    "packets:pos_point_0",
+    "packets:pos_point_1",
+    "packets:pos_point_2",
+    "packets:pos_point_3",
+    "packets:pos_point_4",
+    "packets:pos_point_5",
+    "packets:pos_point_6"
+  ]
+}

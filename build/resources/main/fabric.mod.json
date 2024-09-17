@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "packets",
+  "version": "1.1.0",
+  "name": "Packets",
+  "description": "Логирует, входящие и исходящие пакеты 
+Logs incoming and outgoing packets 
+ §b/packets start§r - Начать логировать | Start logging 
+ §b/packets start <seconds>§r - Начать логировать в течение N секунд, после чего логирование завершится | Start logging 
+ §b/packets stop§r - Остановить логирование | Start logging",
+  "authors": [
+    "Padej_"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/packets/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.padej.packets.client.PacketsClient"
+    ],
+    "main": [
+      "me.padej.packets.Packets"
+    ]
+  },
+  "mixins": [
+    "packets.mixins.json",
+    {
+      "config": "packets.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": ">=1.20.1"
+  }
+}

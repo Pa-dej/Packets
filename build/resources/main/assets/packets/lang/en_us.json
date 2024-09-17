@@ -1,0 +1,9 @@
+{
+  "message.packets.start": "§6Packet logging has started",
+  "message.packets.recording": "§6Packet logging is finished",
+  "message.packets.countdown": "§6Packet logging lasts N sec",
+  "message.packets.saved": "§6Packet logging is saved",
+  "button.enable_all": "§6Enable all",
+  "button.disable_all": "§6Disable all",
+  "button.toggle_all": "§6Reversed"
+}

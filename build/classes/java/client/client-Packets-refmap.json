@@ -1,0 +1,30 @@
+{
+  "mappings": {
+    "me/padej/packets/mixin/ClientConnectionMixin": {
+      "disconnect": "Lnet/minecraft/class_2535;method_10747(Lnet/minecraft/class_2561;)V",
+      "handlePacket": "Lnet/minecraft/class_2535;method_10759(Lnet/minecraft/class_2596;Lnet/minecraft/class_2547;)V",
+      "send(Lnet/minecraft/network/packet/Packet;Lnet/minecraft/network/PacketCallbacks;)V": "Lnet/minecraft/class_2535;method_10752(Lnet/minecraft/class_2596;Lnet/minecraft/class_7648;)V"
+    },
+    "me/padej/packets/mixin/CreativeInventoryMixin": {
+      "init": "Lnet/minecraft/class_481;method_25426()V"
+    },
+    "me/padej/packets/mixin/SurvivalInventoryMixin": {
+      "init": "Lnet/minecraft/class_490;method_25426()V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "me/padej/packets/mixin/ClientConnectionMixin": {
+        "disconnect": "Lnet/minecraft/class_2535;method_10747(Lnet/minecraft/class_2561;)V",
+        "handlePacket": "Lnet/minecraft/class_2535;method_10759(Lnet/minecraft/class_2596;Lnet/minecraft/class_2547;)V",
+        "send(Lnet/minecraft/network/packet/Packet;Lnet/minecraft/network/PacketCallbacks;)V": "Lnet/minecraft/class_2535;method_10752(Lnet/minecraft/class_2596;Lnet/minecraft/class_7648;)V"
+      },
+      "me/padej/packets/mixin/CreativeInventoryMixin": {
+        "init": "Lnet/minecraft/class_481;method_25426()V"
+      },
+      "me/padej/packets/mixin/SurvivalInventoryMixin": {
+        "init": "Lnet/minecraft/class_490;method_25426()V"
+      }
+    }
+  }
+}

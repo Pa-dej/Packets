@@ -1,0 +1,2 @@
+v1	named	intermediary
+FIELD	me/padej/packets/mixin/ClientConnectionMixin	Lnet/minecraft/network/NetworkSide;	side	field_11643

@@ -1,0 +1,9 @@
+{
+  "message.packets.start": "§6Запись пакетов началась",
+  "message.packets.recording": "§6Идет запись пакетов",
+  "message.packets.countdown": "§6Идет запись пакетов: %s сек",
+  "message.packets.saved": "§6Запись пакетов сохранена",
+  "button.enable_all": "Включить все",
+  "button.disable_all": "Выключить все",
+  "button.toggle_all": "Обратное"
+}
